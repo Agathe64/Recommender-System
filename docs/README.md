@@ -9,11 +9,11 @@ This repository contains our full project for building and analyzing various Rec
 ### `notebooks/`
 Jupyter notebooks documenting each major step of the project:
 
-- `1_SetUp.ipynb`: Environment setup and package installation
-- `2_EDA.ipynb`: Exploratory Data Analysis on the raw dataset
-- `3_RecoSystem.ipynb`: Implementation of a basic recommender system (content-based and collaborative)
-- `4_TextAnalysis.ipynb`: NLP processing and sentiment-based recommendation insights
-- `5_HybridSystem.ipynb`: Final hybrid recommender model combining structured and textual data
+- `1_setup.ipynb`: Environment setup and package installation
+- `2_eda.ipynb`: Exploratory Data Analysis on the raw dataset
+- `3_recosystem.ipynb`: Implementation of a basic recommender system (content-based and collaborative)
+- `4_text_analysis.ipynb`: NLP processing and sentiment-based recommendation insights
+- `5_hybrid_system.ipynb`: Final hybrid recommender model combining structured and textual data
 
 ###  `data/`
 - `video_game_reviews.csv`: Original dataset
@@ -28,12 +28,11 @@ Jupyter notebooks documenting each major step of the project:
   - `flake8`
 
 Includes:
-- `1_Streamlit.py`: Streamlit app for the basic recommender
-- `2_Streamlit.py`: Streamlit app for the hybrid recommender
+- `1_streamlit_reco.py`: Streamlit app for the basic recommender
+- `2_streamlit_hybrid.py`: Streamlit app for the hybrid recommender
 
 ### `docs/`
 - `README.md`: This file
-- `project_report.pdf`: Detailed project report
 - `MVP_submission.pdf`: Minimum Viable Product documentation submitted
 
 ---
